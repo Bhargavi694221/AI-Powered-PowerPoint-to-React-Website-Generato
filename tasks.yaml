@@ -1,0 +1,41 @@
+read_ppt:
+  description: >
+    Read the PowerPoint presentation.
+
+  expected_output: >
+    All slide information extracted.
+
+extract_images:
+  description: >
+    Extract images from every slide.
+
+  expected_output: >
+    Images saved into the assets folder.
+
+analyze_content:
+  description: >
+    Analyze slide text and create website_content.json.
+
+  expected_output: >
+    JSON file created successfully.
+
+generate_components:
+  description: >
+    Generate React components.
+
+  expected_output: >
+    Hero.jsx, About.jsx, Features.jsx and other components created.
+
+generate_app:
+  description: >
+    Generate App.jsx.
+
+  expected_output: >
+    App.jsx imports all components.
+
+run_terminal:
+  description: >
+    Execute npm install and npm run dev.
+
+  expected_output: >
+    React website starts successfully.
